@@ -1340,7 +1340,22 @@ button:not(:hover) {
     .eight h1 {
         top: 60%;
         font-size: 200%;
+        line-height: 30px;
     }
+    /*.eight h1 {
+        color: #111;
+        font-family: 'Poppins', sans-serif;
+        font-size: 400%;
+        font-weight: 400;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        width: 95%;
+        text-align: left;
+        line-height: 70px;
+    }*/
     .four .code, .four .date {
         display: none;
     }
@@ -1351,6 +1366,7 @@ button:not(:hover) {
         display: inline-block;
         position: absolute;
         top: 10%;
+        display: none;
     }
     .four h1:nth-child(2) {
         font-family: 'Poppins';
@@ -1365,6 +1381,18 @@ button:not(:hover) {
     .card1, .card2, .card3, .card4 {
         height: 35%;
     }
+    /*
+    .card1 {
+    width: calc(75% - (30% * 2 - 500px));
+    height: 50%;
+    background: #fff;
+    position: absolute;
+    left: 8%;
+    top: 30%;
+    border: 1px solid #111;
+    display: block;
+}
+    */
     .progress {
         width: 20%;
         height: 15px;
@@ -1381,7 +1409,7 @@ button:not(:hover) {
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
-        font-size: 200%;
+        font-size: 100%;
     }
     .services2 {
         margin-top: 100%;
