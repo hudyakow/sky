@@ -1387,7 +1387,7 @@ button:not(:hover) {
 
     .four h1:nth-child(1) {
         font-family: 'Poppins', sans-serif;
-        font-size: 400%;
+        font-size: 250%;
         font-weight: 800;
         width: 30%;
         position: absolute;
