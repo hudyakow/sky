@@ -832,6 +832,12 @@ button:not(:hover) {
     bottom: 5px;
     right: 3%;
 }
+.point1 {
+    display: inline-block;
+    position: absolute;
+    bottom: 5px;
+    right: 3%;
+}
 .point a {
     width: 25px;
     height: 25px;
@@ -1439,7 +1445,7 @@ button:not(:hover) {
         position: relative;
     }
     .card4 img:nth-child(2), .card3 img:nth-child(2), .card2 img:nth-child(2), .card1 img:nth-child(2) {
-        height: 50%;
+        height: 55%;
         width: 50%;
         top: 0;
         left: 0;
@@ -1461,7 +1467,7 @@ button:not(:hover) {
         position: absolute;
         bottom: 5%;
         margin: 8% 0 0 8%;
-        border-radius: 25px;
+        border-radius: 15px;
         font-family: 'Poppins', sans-serif;
         font-weight: 500;
     }
