@@ -1359,14 +1359,8 @@ button:not(:hover) {
     .four .code, .four .date {
         display: none;
     }
-    .four h1 {
-        width: 50%;
-    }
-    .four img {
+    .card h1 {
         display: inline-block;
-        position: absolute;
-        top: 10%;
-        display: none;
     }
     .four h1:nth-child(2) {
         font-family: 'Poppins';
@@ -1380,6 +1374,26 @@ button:not(:hover) {
     }
     .card1, .card2, .card3, .card4 {
         height: 35%;
+        width: 80%;
+    }
+    .card1 h1:nth-child(3), .card2 h1:nth-child(3), .card3 h1:nth-child(3), .card4 h1:nth-child(3) {
+        font-family: 'Poppins';
+        font-weight: 300;
+        font-size: 200%;
+        width: 60%;
+        line-height: 35px;
+        display: none;
+    }
+
+    .four h1:nth-child(1) {
+        font-family: 'Poppins', sans-serif;
+        font-size: 200%;
+        font-weight: 600;
+        margin: 40px 0 0 50px;
+        color: #111;
+    }
+    .four h1:nth-child(2) {
+        font-size: 200%;
     }
     /*
     .card1 {
@@ -1429,5 +1443,14 @@ button:not(:hover) {
         background: #111;
         margin: -50px 0 0 0;
         position: relative;
+    }
+    .card4 img:nth-child(2), .card3 img:nth-child(2), .card2 img:nth-child(2), .card1 img:nth-child(2) {
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        right: 30px;
+        display: inline-block;
+        position: absolute;
+        top: 30%;
     }
 }
