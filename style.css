@@ -1388,7 +1388,7 @@ button:not(:hover) {
     .four h1:nth-child(1) {
         font-family: 'Poppins', sans-serif;
         font-size: 250%;
-        font-weight: 800;
+        font-weight: 600;
         width: 30%;
         position: absolute;
         top: -5%;
@@ -1408,6 +1408,7 @@ button:not(:hover) {
         left: 1%;
         border-radius: 22px;
         border: 1px solid #111;
+        display: none;
     }
     .Sphere {
         font-family: 'ArcadeClassic', sans-serif;
@@ -1446,5 +1447,22 @@ button:not(:hover) {
         display: inline-block;
         position: absolute;
         margin: 8% 0 0 8%;
+    }
+    .point a {
+        width: 15px;
+        height: 15px;
+    }
+    .read {
+        padding: 10px 35px;
+        border: 1px solid #111;
+        color: #111;
+        background: transparent;
+        font-size: 100%;
+        position: absolute;
+        bottom: 5%;
+        margin: 8% 0 0 8%;
+        border-radius: 25px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
     }
 }
