@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hudyakow.shop</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class = "first">
+            <div id = "circularcursor">
+                <p>SEE WORK</p>
+            </div>
+            <div class = "main">
+                <div class = "logo">DEV</div>
+                    <nav id = "nav">
+                        <ul>
+                            <li>
+                                <a class = "go" href = "#">WORKS</a>
+                                <a class = "go" href = "#">ABOUT</a>
+                                <a class = "go" href = "#">PARTNERSHIPS</a>
+                                <a class = "go" href = "#">SERVICES</a>
+                                <a class = "go" href = "#">CAREERS</a>
+                                <a class = "go" href = "#">CONTACTS</a>
+                            </li>
+                        </ul>
+                    </nav>
+            </div>
+        </div>
+        <style>
+            @font-face {
+    font-family: "ArcadeClassic";
+    src: local("ArcadeClassic"),
+         url("/fonts/ARCADECLASSIC.TTF") format("ttf");
+}
+@font-face {
+    font-family: "OPTIEdgarBold-Extended";
+    src: local("OPTIEdgarBold-Extended"),
+         url("/fonts/OPTIEdgarBold-Extended.otf") format("otf");
+}
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            .first {
+                height: 100vh;
+                background: #F5F5F5;
+                width: 100%;
+            }
+            nav:not(.logo) {
+    /*position: absolute;
+    top: 3%;
+    left: 13%;*/
+    list-style-type: none;
+}
+nav {
+    height: 11vh;
+    background: transparent;
+    position: fixed;
+    top: 3%;
+    right: 2%;
+    z-index: 9999999;
+}
+ul, ul li {
+    list-style-type: none;
+}
+nav ul li a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #111111;
+    text-decoration: none;
+    margin: 20px;
+    list-style-type: none;
+    display: inline-block;
+}
+/*a:nth-child(4) {
+    position: absolute;
+    right: 200px;
+    display: inline-block;
+    color: #111;
+}
+a:nth-child(5) {
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    background: #111;
+    color: #F3F3F5;
+    padding: 7px 15px;
+    border-radius: 30px;
+    margin-top: 10px;
+}*/
+.logo {
+    font-family: 'OPTIEdgarBold-Extended', sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    color: #111111;
+    /*margin: 2% 0 0 2%;*/
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    display: inline-block;
+}
+#circularcursor {
+    background: url("image/dj.png");
+    border: 2px solid #111;    
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    position: absolute;
+    z-index: 0;
+    text-align: center;
+    /*margin: -80px 0 0 -80px;*/
+    cursor: pointer;
+}
+#circularcursor p {
+    margin-top: 65px;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+        </style>
+        <script>
+            $(document).ready(function() {
+    $(document).on('mousemove', function(e) {
+      $('#circularcursor').css({
+        left: e.pageX + -80 + 'px',
+        top: e.pageY + -80 + 'px'
+      });
+    })
+  });
+  
+$(".main").hover(function () {
+    $('#circularcursor').css("visibility", "hidden");
+}, 
+function () {
+    $('#circularcursor').css("visibility", "visible");
+});
+        </script>
+    </body>
+</html>
