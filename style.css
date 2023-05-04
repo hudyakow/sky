@@ -1391,8 +1391,9 @@ button:not(:hover) {
         font-weight: 800;
         width: 30%;
         position: absolute;
-        top: 0;
+        top: -5%;
         right: 10%;
+        line-height: 35px;
         color: #111;
     }
     .four h1:nth-child(2) {
