@@ -1339,7 +1339,7 @@ button:not(:hover) {
     }
     .eight h1 {
         top: 60%;
-        font-size: 500%;
+        font-size: 200%;
     }
     .four .code, .four .date {
         display: none;
@@ -1355,7 +1355,7 @@ button:not(:hover) {
     .four h1:nth-child(2) {
         font-family: 'Poppins';
         font-weight: 500;
-        font-size: 400%;
+        font-size: 200%;
         line-height: 70px;
         letter-spacing: -0.045em;
         color: #111111;
@@ -1381,7 +1381,7 @@ button:not(:hover) {
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
-        font-size: 400%;
+        font-size: 200%;
     }
     .services2 {
         margin-top: 100%;
