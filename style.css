@@ -659,8 +659,8 @@ i.fa:hover {
     font-size: 35px;
     font-weight: 500;
     position: absolute;
-    top: 31%;
-    left: 13%;
+    top: 21%;
+    left: 16%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
     display: inline-block;
@@ -1329,7 +1329,8 @@ button:not(:hover) {
         font-size: 400%;
     }
     .one {
-        min-height: 120vh;
+       /* min-height: 120vh;*/
+        min-height: 80vh;
     }
     #circularcursor {
         z-index: -999;
@@ -1480,8 +1481,16 @@ button:not(:hover) {
         width: 15px;
         height: 15px;
     }
+    .point {
+        width: 60px;
+        height: 60px;
+        background: #fff;
+        border: 1px solid #111;
+        border-radius: 15px;
+    }
     .read {
-        padding: 10px 35px;
+        width: 50%;
+        height: 50px;
         border: 1px solid #111;
         color: #111;
         background: transparent;
@@ -1489,7 +1498,7 @@ button:not(:hover) {
         position: absolute;
         bottom: 5%;
         margin: 8% 0 0 8%;
-        border-radius: 15px;
+        border-radius:25px;
         font-family: 'Poppins', sans-serif;
         font-weight: 500;
         display: block;
